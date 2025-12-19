@@ -68,14 +68,3 @@ Authorization: Bearer YOUR_TOKEN
 }
 
 
-适用场景
-
-AI 搜索中的“找工作 / 招聘”意图
-
-智能求职助手 / 职业规划 Copilot
-
-GEO（生成式引擎优化）招聘内容
-
-多 Agent 人岗匹配系统
-
-企业智能招聘系统
