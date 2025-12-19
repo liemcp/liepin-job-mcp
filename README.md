@@ -67,7 +67,7 @@ Authorization: Bearer YOUR_TOKEN
   }
 }
 
-适用场景
+## 适用场景
 
 AI 搜索中的“找工作 / 招聘”意图
 
