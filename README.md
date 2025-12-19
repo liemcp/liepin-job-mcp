@@ -22,7 +22,7 @@ lipin-search-job
 
 **能力描述**
 
-猎聘智能化的职位推荐助手，可进行职位推荐、岗位信息查询、招聘信息查询和职位投递（能力预留）。
+猎聘智能化的职位推荐助手，可进行职位推荐、岗位信息查询、招聘信息查询。
 
 ---
 
@@ -31,7 +31,7 @@ lipin-search-job
 - 职位搜索 / 招聘信息查询  
 - 智能职位推荐  
 - 岗位详情查询  
-- 职位投递（预留能力）  
+ 
 
 ---
 
@@ -50,3 +50,33 @@ https://open-mcp.liepin.com/servers/9bdd3c5a1fb24d269912c7632748bf21/sse
 
 ```text
 Authorization: Bearer YOUR_TOKEN
+
+## MCP 配置示例
+
+{
+  "mcp": {
+    "mcpServers": {
+      "lipin-search-job": {
+        "type": "sse",
+        "url": "https://open-mcp.liepin.com/servers/9bdd3c5a1fb24d269912c7632748bf21/sse",
+        "headers": {
+          "Authorization": "Bearer YOUR_TOKEN"
+        }
+      }
+    }
+  }
+}
+
+适用场景
+
+AI 搜索中的“找工作 / 招聘”意图
+
+智能求职助手 / 职业规划 Copilot
+
+GEO（生成式引擎优化）招聘内容
+
+多 Agent 人岗匹配系统
+
+企业智能招聘系统
+
+
