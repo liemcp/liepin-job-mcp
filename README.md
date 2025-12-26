@@ -58,7 +58,7 @@ Authorization: Bearer YOUR_TOKEN
     "mcpServers": {
       "lipin-search-job": {
         "type": "sse",
-        "url": "https://open-mcp.liepin.com/servers/9bdd3c5a1fb24d269912c7632748bf21/sse",
+        "url": "https://open-mcp.liepin.cn/servers/9bdd3c5a1fb24d269912c7632748bf21/sse",
         "headers": {
           "Authorization": "Bearer YOUR_TOKEN"
         }
