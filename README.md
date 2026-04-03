@@ -17,7 +17,8 @@
 ## 使用限制
 
 **授权KEY**
-1、用户需访问并登录猎聘获取授权Key  访问 [猎聘MCP](https://www.liepin.com/mcp/server)
+
+- 用户需访问并登录猎聘获取授权Key  访问 [猎聘MCP](https://www.liepin.com/mcp/server)
 
 **使用限制**
 - API 调用频率	60 次 / 分钟	搜索、查看、简历更新、投递共用配额
