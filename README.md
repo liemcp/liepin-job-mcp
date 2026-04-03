@@ -31,7 +31,7 @@
 
 **MCP 名称**
 
-lipin-search-job
+liepin-search-job
 
 **能力描述**
 
