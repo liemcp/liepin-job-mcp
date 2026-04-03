@@ -35,33 +35,28 @@ lipin-search-job
 
 ---
 
-## MCP Server 地址
+## MCP  地址
 
-- 协议：SSE（Server-Sent Events）
-- 地址：
+- 地址：https://open-agent.liepin.com/mcp/user
 
-https://open-mcp.liepin.com/servers/9bdd3c5a1fb24d269912C7632748bf21/sse
 
 ---
 
 ## 鉴权方式
 
-使用 Bearer Token Header 鉴权。
+使用 x-user-token 鉴权。
 
 ```text
-Authorization: Bearer YOUR_TOKEN
+ "x-user-token": "liepin_user_token_xxxx"
 
 ## MCP 配置示例
 
 {
-  "mcp": {
-    "mcpServers": {
-      "lipin-search-job": {
-        "type": "sse",
-        "url": "https://open-mcp.liepin.com/servers/9bdd3c5a1fb24d269912C7632748bf21/sse",
-        "headers": {
-          "Authorization": "Bearer YOUR_TOKEN"
-        }
+  "mcpServers": {
+    "liepin-mcp": {
+      "url": "https://open-agent.liepin.com/mcp/user",
+      "headers": {
+        "x-user-token": "liepin_user_token_xxxx"
       }
     }
   }
